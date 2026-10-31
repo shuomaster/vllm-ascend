@@ -57,6 +57,7 @@ from vllm_ascend.attention.utils import (
     notify_kv_cache_written,
     split_decodes_and_prefills,
     supports_strided_mla_cache,
+    uses_pcp_sharded_layout,
     wait_for_kv_layer_from_connector,
 )
 from vllm_ascend.compilation.acl_graph import (
@@ -112,8 +113,8 @@ class AscendMLABackend(AttentionBackend):
     @classmethod
     def supports_batch_invariance(cls) -> bool:
         # vLLM #60271 added the batch-invariance support check in
-        # `init_attn_backend` on main; the v0.31.0 lane has no such check.
-        return not vllm_version_is("0.31.0")
+        # `init_attn_backend` in both supported vLLM revisions.
+        return True
 
     @staticmethod
     def get_builder_cls():
@@ -267,6 +268,8 @@ class AscendMLAMetadata:
     # sharded-decode PCP KV gather.
     pcp_cos: torch.Tensor | None = None
     pcp_sin: torch.Tensor | None = None
+    # Resolved by the builder; execution must not infer layout from tensor sizes.
+    uses_pcp_sharded_layout: bool = False
     external_flashmla: FlashMLADecode | None = None
 
     def __post_init__(self):
@@ -585,7 +588,9 @@ class AscendMLAMetadataBuilder(MLACommonMetadataBuilder[AscendMLAMetadata]):
         self._pcp_cache_group_idx = common_attn_metadata.pcp_cache_group_idx
         if self.flashmla_state is not None:
             return self._build_external_flashmla(common_prefix_len, common_attn_metadata)
-        expanded_slot_mapping = common_attn_metadata.slot_mapping if self.use_pcp else None
+        pcp_shard_slot_mapping = (
+            common_attn_metadata.slot_mapping if uses_pcp_sharded_layout(common_attn_metadata, self.use_pcp) else None
+        )
         num_reqs = common_attn_metadata.num_reqs
         query_start_loc = common_attn_metadata.query_start_loc
         query_start_loc_cpu = common_attn_metadata.query_start_loc_cpu
@@ -650,9 +655,8 @@ class AscendMLAMetadataBuilder(MLACommonMetadataBuilder[AscendMLAMetadata]):
             seq_lens=self.seq_lens,
             seq_lens_cpu=self.seq_lens,
         )
-        if self.use_pcp:
-            assert expanded_slot_mapping is not None
-            self._finalize_pcp_metadata(metadata, expanded_slot_mapping)
+        if pcp_shard_slot_mapping is not None:
+            self._finalize_pcp_metadata(metadata, pcp_shard_slot_mapping)
             if self.is_pcp_decode_sharded:
                 # Decode rows lead the local positions, so a decode-only batch
                 # can refresh the graph-stable RoPE buffer that decode uses.
@@ -679,6 +683,7 @@ class AscendMLAMetadataBuilder(MLACommonMetadataBuilder[AscendMLAMetadata]):
                 f"{metadata.num_actual_tokens} > {local_num_input_tokens}."
             )
 
+        metadata.uses_pcp_sharded_layout = True
         metadata.slot_mapping = expanded_slot_mapping
         if metadata.num_prefills > 0:
             prefill_metadata = metadata.prefill
@@ -1002,9 +1007,9 @@ class AscendMLAImpl(MLAAttentionImpl):
         self.g_proj = kwargs.get("g_proj")
         # vLLM main fuses Kimi-K3's output gate into the QKV-A projection as a
         # trailing shard, making its per-rank layout ``[q_a | kv_a | gate]`` and
-        # dropping the standalone ``g_proj``. Release v0.31.0 keeps the separate
+        # dropping the standalone ``g_proj``. Release v0.32.0 keeps the separate
         # ``g_proj`` and a two-shard projection.
-        if vllm_version_is("0.31.0"):
+        if vllm_version_is("0.32.0"):
             self.qkv_a_gate_fused = False
             self.use_output_gate = self.g_proj is not None
         else:
@@ -1296,7 +1301,7 @@ class AscendMLAImpl(MLAAttentionImpl):
         # reload has to refresh the stored tensors in place instead of
         # rebinding the attributes to freshly allocated tensors.
         # `replace_parameter(..., prefer_copy=True)` does exactly that on
-        # v0.31.0: it copies into the existing storage while the new value stays
+        # v0.32.0: it copies into the existing storage while the new value stays
         # compatible, and rebinds only when shape/dtype/device actually
         # changes. vLLM main (#62326) dropped `prefer_copy` and keeps the
         # parameter object by default. This mirrors how upstream vLLM refreshes
@@ -1304,7 +1309,7 @@ class AscendMLAImpl(MLAAttentionImpl):
         # raise on a shape mismatch.
         w_uv = W_UV.transpose(0, 1).contiguous()  # (L, N, V) -> (N, L, V)
         w_uk_t = W_UK.permute(1, 2, 0).contiguous()  # (L, N, P) -> (N, P, L)
-        if vllm_version_is("0.31.0"):
+        if vllm_version_is("0.32.0"):
             replace_parameter(self, "W_UV", w_uv, prefer_copy=True)
             replace_parameter(self, "W_UK_T", w_uk_t, prefer_copy=True)
         else:
@@ -3243,13 +3248,13 @@ class AscendMLAImpl(MLAAttentionImpl):
         )
 
     # vLLM main fuses Kimi-K3's output gate into the trailing shard of the
-    # QKV-A projection; v0.31.0 never has that shard, so the release lane keeps
+    # QKV-A projection; v0.32.0 never has that shard, so the release lane keeps
     # the original two-way ``[q_a | kv_a]`` split.
-    if vllm_version_is("0.31.0"):
+    if vllm_version_is("0.32.0"):
 
         @property
         def _fused_qkv_a_kv_end(self) -> int | None:
-            """v0.31.0 keeps the plain two-shard QKV-A projection."""
+            """v0.32.0 keeps the plain two-shard QKV-A projection."""
             return None
 
         def _split_fused_qkv_lora(self, qkv_lora: torch.Tensor):
@@ -3316,8 +3321,10 @@ class AscendMLAImpl(MLAAttentionImpl):
 
         decode_preprocess_res = None
         prefill_preprocess_res = None
-        # Sharded decode writes other ranks' KV even without local queries.
-        should_write_kv_cache = has_decode or has_prefill or self.is_pcp_decode_sharded
+        # Sharded decode writes other ranks' KV even without local queries; a
+        # replicated draft decode keeps its local slots and per-path writes.
+        writes_sharded_pcp_kv = self.is_pcp_decode_sharded and attn_metadata.uses_pcp_sharded_layout
+        should_write_kv_cache = has_decode or has_prefill or writes_sharded_pcp_kv
         if has_prefill:
             wait_for_kv_layer_from_connector(layer_name)
         if self.layerwise_kv_cache_hook is not None and should_write_kv_cache:
@@ -3325,7 +3332,7 @@ class AscendMLAImpl(MLAAttentionImpl):
             # Wait for the broadcast before reading or updating the cache.
             self.layerwise_kv_cache_hook.wait_for_layer(layer_name)
         written_kv = None
-        if self.is_pcp_decode_sharded:
+        if writes_sharded_pcp_kv:
             # No local token is replicated, so decode and prefill rows share
             # one PCP gather and cache write.
             written_kv = self.exec_kv_prefill(
@@ -3418,6 +3425,7 @@ class AscendMLAImpl(MLAAttentionImpl):
             gate = self.g_proj(hidden_states.contiguous())[0]
 
         # MLA Preprocess
+        preprocess_gate = None
         decode_requires_current_kv = self._decode_requires_current_kv(attn_metadata)
         prefill_requires_current_kv = self._prefill_requires_current_kv(attn_metadata)
         dcp_current_kv_buffers = getattr(self, "_dcp_current_kv_buffers", None)
@@ -3456,7 +3464,7 @@ class AscendMLAImpl(MLAAttentionImpl):
                 hidden_states, kv_cache, attn_metadata
             )
         elif self._uses_strided_kv_adapter() and any(not cache.is_contiguous() for cache in kv_cache):
-            decode_preprocess_res, prefill_preprocess_res, gate = self._mla_preprocess(
+            decode_preprocess_res, prefill_preprocess_res, preprocess_gate = self._mla_preprocess(
                 layer_name, hidden_states, kv_cache, attn_metadata
             )
         elif (
@@ -3476,9 +3484,13 @@ class AscendMLAImpl(MLAAttentionImpl):
                 hidden_states, kv_cache, attn_metadata
             )
         else:
-            decode_preprocess_res, prefill_preprocess_res, gate = self._mla_preprocess(
+            decode_preprocess_res, prefill_preprocess_res, preprocess_gate = self._mla_preprocess(
                 layer_name, hidden_states, kv_cache, attn_metadata
             )
+        # The plain QKV-A layout returns no gate. Keep the standalone g_proj
+        # result unless preprocessing produced a fused output gate.
+        if preprocess_gate is not None:
+            gate = preprocess_gate
         if decode_preprocess_res is not None:
             # MLA Preprocess for decoding
             if attn_metadata.external_flashmla is not None:
