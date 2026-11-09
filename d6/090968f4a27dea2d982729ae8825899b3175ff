@@ -1,0 +1,37 @@
+vllm_ascend/worker/v1/spec_decode/llm_base_proposer.py
+  s_6ddff85854d908::t_0985e4b0cf3975 670-678
+  s_6ddff85854d908::t_28477d073a4a34 679-680
+vllm_ascend/attention/mla_v1.py
+  s_6ddff85854d908::t_d86d5eafe6b96d 65,959,961-980,1001-1002
+  s_6ddff85854d908::t_5950a522b1459a 2851-2857,2860-2868,2875,2877-2879,2885
+  s_6ddff85854d908::t_c47ef21cdb317f 960,981-1000,2869,2880
+  s_6ddff85854d908::t_91bfe18286ab3e 2870-2874,2881-2883
+vllm_ascend/worker/v2/spec_decode/multi_module_mtp/speculator.py
+  s_6ddff85854d908::t_6858ebee4dc8ee 218-236
+  h_4df2eae582927b 200,203,211-215
+vllm_ascend/worker/v2/spec_decode/target_dependent_ar/speculator.py
+  s_6ddff85854d908::t_e2eba9f8d5b915 712-748
+vllm_ascend/utils.py
+  s_6ddff85854d908::t_dbab91a01e8dc7 1877-1890
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "d6090968f4a27dea2d982729ae8825899b3175ff",
+  "prompts": {},
+  "humans": {
+    "h_4df2eae582927b": {
+      "author": "shuomaster <1967838808@qq.com>"
+    }
+  },
+  "sessions": {
+    "s_6ddff85854d908": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1be17-9024-7e82-abdc-1b74e16e952f",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
