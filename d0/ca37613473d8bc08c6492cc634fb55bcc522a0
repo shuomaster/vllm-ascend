@@ -1,0 +1,14 @@
+vllm_ascend/attention/mla_v1.py
+  h_4df2eae582927b 968,992,2887
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "d0ca37613473d8bc08c6492cc634fb55bcc522a0",
+  "prompts": {},
+  "humans": {
+    "h_4df2eae582927b": {
+      "author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
