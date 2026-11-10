@@ -1,0 +1,902 @@
+.github/ISSUE_TEMPLATE/850-cut-branch-checklist.yml
+  h_4df2eae582927b 56,58
+.github/TEST_README.md
+  h_4df2eae582927b 108-111,125,129-132
+.github/vllm-release-tag.commit
+  h_4df2eae582927b 1
+.github/workflows/_build_csrc_cache.yaml
+  h_4df2eae582927b 71
+.github/workflows/_e2e_nightly_multi_node.yaml
+  h_4df2eae582927b 168,268-269,302,337,343,352,362,367
+.github/workflows/_e2e_nightly_single_node.yaml
+  h_4df2eae582927b 161,378-384,402,420-441
+.github/workflows/_e2e_nightly_single_node_560t.yaml
+  h_4df2eae582927b 371-377,395,413-434
+.github/workflows/_e2e_nightly_single_node_models.yaml
+  h_4df2eae582927b 87
+.github/workflows/_selected_tests.yaml
+  h_4df2eae582927b 105,111,232,252-254,271,298
+.github/workflows/_selected_tests_upstream.yaml
+  h_4df2eae582927b 81,104,232
+.github/workflows/configs/nightly_config.yaml
+  h_4df2eae582927b 18,22,26,30,34,38,42,46,50,55,59,104,108,112,116,120,126,130,134,138,142,146,150,162,166,170,174,178,182,186,190,194,198,202,206,210,214,218,222,226,230,234,240,245,249,253,257,261,265,269,273,280,284,288,292,296,300,304,307-328,334,338,345,349,353,357,361,365,369,373,377,381,385
+.github/workflows/configs/weekly_config.yaml
+  h_4df2eae582927b 24-29,34,38,42,46,50,54,58,62,66,70,74,78,82,86,90,94,98,102,106,110,114,121,125,129,133,137,141,145,149,153,157,161,165,169,173,177,181,185,189,193,197,201,205,209,213,217,221,225,232,235,238,242,246,250,254,258,262,266,270,274,278,282,286,290,294,298,302,306,313,320,323,327,331,335,342,346,364,368,372,376,380,384
+.github/workflows/dockerfiles/Dockerfile.buildwheel.310p
+  h_4df2eae582927b 18,34
+.github/workflows/dockerfiles/Dockerfile.buildwheel.a2
+  h_4df2eae582927b 18,34
+.github/workflows/dockerfiles/Dockerfile.buildwheel.a3
+  h_4df2eae582927b 18,34
+.github/workflows/dockerfiles/Dockerfile.buildwheel.a5
+  h_4df2eae582927b 18,37
+.github/workflows/dockerfiles/Dockerfile.lint
+  h_4df2eae582927b 37,45-46
+.github/workflows/dockerfiles/Dockerfile.nightly.310p
+  h_4df2eae582927b 26
+.github/workflows/dockerfiles/Dockerfile.nightly.a2
+  h_4df2eae582927b 26
+.github/workflows/dockerfiles/Dockerfile.nightly.a3
+  h_4df2eae582927b 26
+.github/workflows/dockerfiles/Dockerfile.nightly.a5
+  h_4df2eae582927b 26
+.github/workflows/misc/model_dataset_list.json
+  h_4df2eae582927b 725-726
+.github/workflows/nightly_image_build.yaml
+  h_4df2eae582927b 25-26
+.github/workflows/pr_e2e_command.yml
+  h_4df2eae582927b 48-50,121-124,131-148,217
+.github/workflows/pr_test.yaml
+  h_4df2eae582927b 49-56,58-60,100-103,115-134,136-143,145-153,181-182,241,298-301,308,715-717,746,750,773,777,814
+.github/workflows/schedule_e2e_upstream_test.yaml
+  h_4df2eae582927b 37,78,81,201,226,229,335,358,361,468
+.github/workflows/schedule_image_build_and_push.yaml
+  h_4df2eae582927b 17-18
+.github/workflows/schedule_main2main.yaml
+  h_4df2eae582927b 198,204,221,463-465,507-509,528-529
+.github/workflows/schedule_nightly_image_build_with_base.yaml
+  h_4df2eae582927b 27-28
+.github/workflows/schedule_nightly_test_310p.yaml
+  h_4df2eae582927b 23-29,148-194
+.github/workflows/schedule_nightly_test_a2.yaml
+  h_4df2eae582927b 95,152-198,326,467,499,536-537,539-547
+.github/workflows/schedule_nightly_test_a3.yaml
+  h_4df2eae582927b 19-20,95,152-198,325,379,432,592-593,595-603
+.github/workflows/schedule_nightly_test_a3_560t.yaml
+  h_4df2eae582927b 139-185
+.github/workflows/schedule_nightly_test_a5.yaml
+  h_4df2eae582927b 94,149-195,325,434-435,437-445
+.github/workflows/schedule_weekly_test_a2.yaml
+  h_4df2eae582927b 75,250-251,253-261
+.github/workflows/schedule_weekly_test_a3.yaml
+  h_4df2eae582927b 19-20,79,129,163,188-240,243,295,347,395-396,399-400,402-410,414
+.github/workflows/scripts/check_md_links.py
+  h_4df2eae582927b 2,44,67,71,184,305-306,314-315,328-337,340,342-343
+.github/workflows/scripts/csrc_cache_targets.json
+  h_4df2eae582927b 7,15,23,31,39,47,55,63,71,79,87,95,103
+.github/workflows/scripts/estimated_times.yaml
+  h_4df2eae582927b 53,60,127-129
+.github/workflows/scripts/run_selected_tests.sh
+  h_4df2eae582927b 160
+.github/workflows/scripts/test_config.yaml
+  h_4df2eae582927b 32-37,77-79,152,155
+AGENTS.md
+  h_4df2eae582927b 91
+Dockerfile
+  h_4df2eae582927b 35,37,44-46,48-53,64-65,74,76-77,81-93
+Dockerfile.310p
+  h_4df2eae582927b 33,35,42-44,46-51,63-64,112-113
+Dockerfile.310p.openEuler
+  h_4df2eae582927b 32,34,41-43,45-50,61-62,109-110
+Dockerfile.a3
+  h_4df2eae582927b 38,40,47-49,51-56,68-69,78,80-81,85-98
+Dockerfile.a3.openEuler
+  h_4df2eae582927b 35,37,44-46,48-53,64-65,74,76-77,81-94
+Dockerfile.a5
+  h_4df2eae582927b 38,40-41,48-50,52-58,79-80,82,86,89,93-94,101-114,117
+Dockerfile.a5.openEuler
+  h_4df2eae582927b 35,37-39,45-47,49-55,76-77,86,89-90,96,98-112
+Dockerfile.openEuler
+  h_4df2eae582927b 35,37,44-46,48-53,64-65,74,76-77,81-94
+README.md
+  h_4df2eae582927b 101
+README.zh.md
+  h_4df2eae582927b 19,29-32,37-41,43,45,59,89-90,103,108,110,114
+csrc/cmake/func.cmake
+  h_4df2eae582927b 703,705-712,748-749,751
+csrc/scripts/build_cache.py
+  h_4df2eae582927b 490,514-516,1486-1488
+docs/hooks/macros_main.py
+  h_4df2eae582927b 4-6,11-12,52-54,58-71
+docs/hooks/nav_titles.py
+  h_4df2eae582927b 62-65,155-156
+docs/qwen38_mooncake_basic_pooling.md
+  h_4df2eae582927b 11,23,30
+docs/source/developer_guide/Design_Documents/KV_Cache_Pool_Guide.md
+  h_4df2eae582927b 13
+docs/source/developer_guide/Design_Documents/context_parallel.md
+  h_4df2eae582927b 3-4,13-16,192
+docs/source/developer_guide/Design_Documents/dynamic_chunked_pipeline_parallel.md
+  h_4df2eae582927b 5-8
+docs/source/developer_guide/Design_Documents/layerwise_and_sparse_kv_cache_offloading.md
+  h_4df2eae582927b 308
+docs/source/developer_guide/Design_Documents/model_runner_v2_eplb.md
+  h_4df2eae582927b 67-68,183
+docs/source/developer_guide/Design_Documents/non_contiguous_kv_cache.md
+  h_4df2eae582927b 14-15,225
+docs/source/developer_guide/Design_Documents/persistent_csrc_build_cache.md
+  h_4df2eae582927b 187-201,222-223
+docs/source/developer_guide/contribution/dependency_version_management.md
+  h_4df2eae582927b 1-146
+docs/source/developer_guide/contribution/doc_writing.md
+  h_4df2eae582927b 9,15
+docs/source/developer_guide/contribution/e2e_ci_test.md
+  h_4df2eae582927b 8,51-52
+docs/source/developer_guide/contribution/multi_node_test.md
+  h_4df2eae582927b 15-39,110-111
+docs/source/developer_guide/contribution/testing.md
+  h_4df2eae582927b 282
+docs/source/developer_guide/performance_and_debug/service_profiling_guide.md
+  h_4df2eae582927b 321
+docs/source/getting_started/installation.md
+  h_4df2eae582927b 234-239,241-251,258,274-275,277,282,284-286,288-320,326-328
+docs/source/getting_started/installation/install_vllm_ascend.inc.md
+  h_4df2eae582927b 132-133,153-154,176
+docs/source/locale/zh_CN/LC_MESSAGES/developer_guide/Design_Documents/context_parallel.po
+  h_4df2eae582927b 452,465
+docs/source/locale/zh_CN/LC_MESSAGES/developer_guide/contribution/e2e_ci_test.po
+  h_4df2eae582927b 135-136,138-139
+docs/source/locale/zh_CN/LC_MESSAGES/developer_guide/contribution/multi_node_test.po
+  h_4df2eae582927b 320-365
+docs/source/locale/zh_CN/LC_MESSAGES/getting_started/installation.po
+  h_4df2eae582927b 484-562
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/DeepSeek-V4-Flash.po
+  h_4df2eae582927b 1663-1765
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/DeepSeek-V4.1-Flash.po
+  h_4df2eae582927b 575-579,581-585,588-589,591-592,595-597,599-600,603-604,606,609-610,612-1667,1671-1728,1732-1734,1740-1742,1744-1746,1748-1780,1783-1785,1787-1788,1792-1794,1796-1797,1801-1803,1805-1806,1809-1815,1817-1819,1822-1823,1825-1827,1830-1832,1834-1835,1838-1841,1843-1845,1848-1850,1852-1853,1856-1858,1860-1861,1864-1866,1868-1872,1875-1876,1878-1899,1906,1909-1913,1915-1927,1931,1935,1937-1946
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/GLM5.3-Flash.po
+  h_4df2eae582927b 1195-1949
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/MiniMax-M3.1-Flash.po
+  h_4df2eae582927b 1877-1890
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/Qwen3.8-Flash-Next.po
+  h_4df2eae582927b 147-149,151-152,154-158,161-164,166,169-171,173-175,178-180,182-183,186-189,191-193,196-202,205-208,210-213,216-222,225-227,229-231,234-236,238-240,243-245,247-581,584-587,589-591,594-596,598-679,682-683,685-1356,1359-1360,1362-1363,1366-1370,1372-1373
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/kv_cache_pool_ascend_store.po
+  h_4df2eae582927b 2223-2226
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/speculative_decoding.po
+  h_4df2eae582927b 39,42
+docs/source/tutorials/models/DeepSeek-V4-Flash.md
+  h_4df2eae582927b 847,914,1530,1723,1828,2586-2597
+docs/source/tutorials/models/DeepSeek-V4.1-Flash.md
+  h_4df2eae582927b 25-26,28-30,32-35,44-58,68-69,75-77,79-80,82-86,99,150,161,186-234,242-244,250-297,385-861,1254-1260,1266-1267,1271-1275,1277,1279-1288,1290-1292,1294,1296-1298,1308,1311,1316-1317,1320,1333,1348,1351,1356-1357,1366-1367,1372,1375,1378-1380,1383,1388,1390-1391,1393,1403,1406,1411-1412,1415,1427,1432-1433,1437,1444-1445,1455-1456,1466,1472,1475,1479-1481,1483,1490,1493-1496,1503-1506,1511-1525,1528-1542,1546-1553,1571,1573,1575,1577-1579,1581-1584,1586-1590,1592,1594,1596-1599,1601-1605,1607-1609,1611,1613-1618,1620-1634,1636-1643,1645,1647-1652,1654-1655,1657,1659-1663,1665-1666,1668-1680,1682-1697,1699-1702,1704-1771,1773-1777,1779,1781-1783,1785-1793,1795-1900,1902-2166,2168-2171,2173-2175,2177,2179-2181,2183-2184,2186-2187,2189-2193,2195-2203,2205-2208,2210-2262,2264-2277,2279-2280,2282,2284-2286,2288-2291,2293-2295,2297,2299-2305,2307-2308,2322-2325,2329-2334,2343-2365,2367-2369,2375-2378,2381,2388-2391,2395-2397,2399-2405,2413,2418,2424,2426,2438-2443,2453,2468,2471,2476-2477,2492-2493,2510,2524,2534-2535,2538,2545,2547,2557,2562-2563,2567,2574-2575,2591-2592,2614,2620,2634-2636,2645-2649,2671-2673,2726-2728,2732,2735-2736,2739-2742,2748-2750,2752-2753,2757-2758,2760-2761,2764-2766,2776,2788-2789,2792-2794,2805-2806,2811,2827-2835,2866-2876,2881-2883
+docs/source/tutorials/models/GLM5.2.md
+  h_4df2eae582927b 212-214,254-255,276,307-308,330,421,450,508,537,567,602-603,633,662-663,694,733,800,884,921,1037,1043-1044,1067,1075,1087,1145,1151-1152,1175,1183,1195,1247,1274,1282,1384-1385,1403,1405,1407,1421-1422,1443-1446,1565,1576-1577,1616,1655,1666-1667,1706,1745,1793,1831,1879,1954,1961,1966,1980,1982-1985,1990,2112,2123-2124,2152,2160,2208,2249,2348,2490,2558,2612,2680,2731,2890,2898,2963,3076,3189,3301,3604,3642,3676-3677,3729,3953,4050,4164,4240,4337,4434,4529,4661,4781,4794-4814,4833-4835
+docs/source/tutorials/models/GLM5.3-Flash.md
+  h_4df2eae582927b 500-521,552-557,1119-1123,1247-1248,1253,1259-1271,1395-1397,1403-1406,1427-1430,1787-1791,1793-1797,1799-1804,1806,1808-1812,1814-1815,1817-1828,1831-1846,1848-1857,1859,1861-1869,1873-1878,1881,1883-1886,1888,1890-1895,1898-1899,1905,1908-1917,1924,1926,1931,1934-1936,1939,1942-1943,1949,1952-1961,1968,1970,1975,1978-2010
+docs/source/tutorials/models/GLM5.md
+  h_4df2eae582927b 1072-1073,1117,1135-1136,1180,1238,1296
+docs/source/tutorials/models/Qwen3.8-Flash-Next.md
+  h_4df2eae582927b 1,5-10,13-1036,1038-1040,1042,1044-1045,1047-1050,1052,1054-1059,1061,1063-1071,1073,1075,1077,1079,1081,1083-1117,1119,1121-1152,1154,1156,1159-1168,1170,1172,1174-1180,1182,1184,1186-1190,1192,1194,1196,1198,1200,1202,1204-1206,1210-1222,1224-1225,1228-1229,1231-1236,1238-1271,1273-1488,1490-1491,1493-1689,1691-1750,1753,1755,1757-1968,1972-1986,1991,2003,2007,2010,2040,2046-2047,2051,2090,2099,2120,2123,2146,2150-2152,2156-2157,2164-2182,2188-2210,2214-2216,2218,2220,2224
+docs/source/user_guide/configuration/additional_config.md
+  h_4df2eae582927b 142,147-160,164-165,210,212-214
+docs/source/user_guide/feature_guide/context_parallel.md
+  h_4df2eae582927b 12-15
+docs/source/user_guide/feature_guide/dynamic_chunk_pipeline_parallel.md
+  h_4df2eae582927b 3-6
+docs/source/user_guide/feature_guide/expert_parallelism_load_balancer.md
+  h_4df2eae582927b 24-27,29-30,40,47,68,204-206,269,279
+docs/source/user_guide/feature_guide/kv_cache_pool_ascend_store.md
+  h_4df2eae582927b 65-84,113,116
+docs/source/user_guide/feature_guide/pipeline_parallel.md
+  h_4df2eae582927b 290-292,298,319
+docs/source/user_guide/feature_guide/rl.md
+  h_4df2eae582927b 280,530-532
+docs/source/user_guide/feature_guide/runtime_guard.md
+  h_4df2eae582927b 96
+docs/source/user_guide/feature_guide/speculative_decoding.md
+  h_4df2eae582927b 9-10,31,36,350-353,357-360,363,372,401,406,420,449,464,478,555,567,596-597,735,751,812,814,816,844,846,850,852,864,868,871,880-882,995,997
+docs/source/user_guide/ms_service_metric.md
+  h_4df2eae582927b 60
+docs/source/user_guide/release_notes.md
+  h_4df2eae582927b 1952
+docs/source/user_guide/support_matrix/supported_features.md
+  h_4df2eae582927b 15,25
+docs/source/user_guide/support_matrix/supported_models.md
+  h_4df2eae582927b 25-69,73-134,178-228,231-289
+mkdocs.yml
+  h_4df2eae582927b 185-187,191-195,338
+pyproject.toml
+  h_4df2eae582927b 33-35
+release_notes/fragments/16292.yaml
+  h_4df2eae582927b 1-4
+release_notes/fragments/19804.yaml
+  h_4df2eae582927b 1-4
+release_notes/fragments/19826.yaml
+  h_4df2eae582927b 1-8
+release_notes/fragments/20097.yaml
+  h_4df2eae582927b 1-21
+release_notes/fragments/20627.yaml
+  h_4df2eae582927b 1-4
+release_notes/fragments/20810.yaml
+  h_4df2eae582927b 1-4
+release_notes/fragments/21067.yaml
+  h_4df2eae582927b 1-8
+release_notes/fragments/21114.yaml
+  h_4df2eae582927b 1-7
+release_notes/fragments/21168.yaml
+  h_4df2eae582927b 1-4
+release_notes/fragments/21229.yaml
+  h_4df2eae582927b 1-8
+release_notes/fragments/21243.yaml
+  h_4df2eae582927b 1-4
+release_notes/fragments/21317.yaml
+  h_4df2eae582927b 1-4
+requirements-dev.txt
+  h_4df2eae582927b 21
+requirements-nightly.txt
+  h_4df2eae582927b 17
+requirements.txt
+  h_4df2eae582927b 20,34-35,41
+tests/SIT/cases/E2E_TEST_CASE_GUIDE.md
+  h_4df2eae582927b 8,61,87,119,125,373,767,773,802
+tests/SIT/cases/features/kv_pool/DS-V4-Flash-W8A8-A3-Mooncake.yaml
+  h_4df2eae582927b 35-36
+tests/SIT/cases/features/kv_pool/DSv4-Flash-Memcache-PD-layerwise.yaml
+  h_4df2eae582927b 74-75
+tests/SIT/cases/features/kv_pool/DeepSeek-V4-Flash-Memcache-PD-acc.yaml
+  h_4df2eae582927b 75-76,133-134
+tests/SIT/cases/features/kv_pool/test_kvpp_pool.py
+  h_4df2eae582927b 72
+tests/SIT/cases/features/openai_api_compatibility/conftest.py
+  h_4df2eae582927b 3-4
+tests/SIT/cases/features/openai_api_compatibility/tests/test_chat_template_kwargs.py
+  h_4df2eae582927b 3
+tests/SIT/cases/features/openai_api_compatibility/tests/test_content.py
+  h_4df2eae582927b 3
+tests/SIT/cases/features/openai_api_compatibility/tests/test_context_length.py
+  h_4df2eae582927b 3
+tests/SIT/cases/features/openai_api_compatibility/tests/test_frequency_penalty.py
+  h_4df2eae582927b 3
+tests/SIT/cases/features/openai_api_compatibility/tests/test_logprobs.py
+  h_4df2eae582927b 3
+tests/SIT/cases/features/openai_api_compatibility/tests/test_max_completion_tokens.py
+  h_4df2eae582927b 3
+tests/SIT/cases/features/openai_api_compatibility/tests/test_max_tokens.py
+  h_4df2eae582927b 3
+tests/SIT/cases/features/openai_api_compatibility/tests/test_n.py
+  h_4df2eae582927b 3
+tests/SIT/cases/features/openai_api_compatibility/tests/test_presence_penalty.py
+  h_4df2eae582927b 3
+tests/SIT/cases/features/openai_api_compatibility/tests/test_repetition_penalty.py
+  h_4df2eae582927b 3
+tests/SIT/cases/features/openai_api_compatibility/tests/test_request_id.py
+  h_4df2eae582927b 7
+tests/SIT/cases/features/openai_api_compatibility/tests/test_role.py
+  h_4df2eae582927b 3
+tests/SIT/cases/features/openai_api_compatibility/tests/test_stop.py
+  h_4df2eae582927b 3
+tests/SIT/cases/features/openai_api_compatibility/tests/test_temperature.py
+  h_4df2eae582927b 3
+tests/SIT/cases/features/openai_api_compatibility/tests/test_think_tag.py
+  h_4df2eae582927b 3
+tests/SIT/cases/features/openai_api_compatibility/tests/test_tool_choice.py
+  h_4df2eae582927b 3
+tests/SIT/cases/features/openai_api_compatibility/tests/test_top_k.py
+  h_4df2eae582927b 3
+tests/SIT/cases/features/openai_api_compatibility/tests/test_top_p.py
+  h_4df2eae582927b 3
+tests/SIT/cases/features/structured_output/README.md
+  h_4df2eae582927b 21
+tests/SIT/cases/features/structured_output/api.py
+  h_4df2eae582927b 19
+tests/SIT/cases/features/structured_output/assertions.py
+  h_4df2eae582927b 22
+tests/SIT/cases/features/structured_output/conftest.py
+  h_4df2eae582927b 26-27
+tests/SIT/cases/features/structured_output/test_offline_api.py
+  h_4df2eae582927b 20-22
+tests/SIT/cases/features/structured_output/test_openai_api.py
+  h_4df2eae582927b 24-25,30,34
+tests/SIT/cases/models/configs/DeepSeek/DS-V4-flash-w8a8-PD-prefix-weekly.yaml
+  h_4df2eae582927b 60-61
+tests/SIT/cases/models/configs/DeepSeek/DeepSeek-V4-Flash-0731-A5-PD.yaml
+  h_4df2eae582927b 1-5,7-32,43-49,51-110,112-166,168,176-177,187-188
+tests/SIT/cases/models/configs/DeepSeek/DeepSeek-V4-Flash-w8a8-bugtest-acc.yaml
+  h_4df2eae582927b 55-56
+tests/SIT/cases/models/configs/DeepSeek/DeepSeek-V4-Flash-w8a8-sleep-wakeup.yaml
+  h_4df2eae582927b 15-16
+tests/SIT/cases/models/configs/DeepSeek/DeepSeek-V4-Pro-w4a8-prefix-cache-PD.yaml
+  h_4df2eae582927b 81-82,139-140
+tests/SIT/cases/models/configs/DeepSeek/DeepSeek-V4-Pro-w4a8-prefix-cache-PD_weekly.yaml
+  h_4df2eae582927b 80-81,138-139
+tests/SIT/cases/models/configs/DeepSeek/DeepSeek-V4-flash-w8a8-PD-no-prefix.yaml
+  h_4df2eae582927b 60-61
+tests/SIT/cases/models/configs/DeepSeek/DeepSeek-V4-flash-w8a8-PD-prefix-MRV2.yaml
+  h_4df2eae582927b 61-62
+tests/SIT/cases/models/configs/DeepSeek/DeepSeek-V4-flash-w8a8-PD-prefix.yaml
+  h_4df2eae582927b 62-63
+tests/SIT/cases/models/configs/DeepSeek/DeepSeek_V4_Flash_A5.yaml
+  h_4df2eae582927b 84,98,112,126,140,152
+tests/SIT/cases/models/configs/DeepSeek/DeepSeek_V4_Flash_A5_weekly.yaml
+  h_4df2eae582927b 84,98,112,126,140,152
+tests/SIT/cases/models/configs/DeepSeek/DeepSeek_V4_Flash_K15_dspark_A5.yaml
+  h_4df2eae582927b 12-13
+tests/SIT/cases/models/configs/GLM/GLM-5.3-Flash-W8A8-MXFP8-A5-PD.yaml
+  h_4df2eae582927b 2
+tests/SIT/cases/models/configs/Kimi/Kimi-K3-W4A8-A3-1M-PD.yaml
+  h_4df2eae582927b 1-4,6-119,121-122,124-198,200-333,335,337-380
+tests/SIT/cases/models/configs/Qwen/Qwen3-30B-A3B-W4A8-llm-compressor.yaml
+  h_4df2eae582927b 1-41
+tests/SIT/cases/models/configs/Qwen/Qwen3-30B-A3B-W8A8.yaml
+  h_4df2eae582927b 1-43
+tests/SIT/cases/models/configs/Step/Step3_7_Flash_W8A8_A5.yaml
+  h_4df2eae582927b 60
+tests/SIT/conftest.py
+  h_4df2eae582927b 1-3
+tests/deepseek_v41_utils.py
+  h_4df2eae582927b 317,336
+tests/e2e/common/multi_node/external_dp/external_dp_config.py
+  h_4df2eae582927b 247
+tests/e2e/common/multi_node/internal_dp/multi_node_config.py
+  h_4df2eae582927b 21
+tests/e2e/common/multi_node/internal_dp/utils.py
+  h_4df2eae582927b 13
+tests/e2e/common/multi_node/lws.yaml.jinja2
+  h_4df2eae582927b 15-20,22-25,153-160,162-165
+tests/e2e/common/rlhf/common.py
+  h_4df2eae582927b 1-2,4-6,13,15,19-128
+tests/e2e/common/rlhf/weight_transfer/__init__.py
+  h_4df2eae582927b 2-3
+tests/e2e/common/rlhf/weight_transfer/case.py
+  h_4df2eae582927b 1-2,4-74,78-151,153
+tests/e2e/common/rlhf/weight_transfer/checkpoint_adapters.py
+  h_4df2eae582927b 1-80
+tests/e2e/common/rlhf/weight_transfer/hccl.py
+  h_4df2eae582927b 4,6-8,20-23,26-29,33-34,36-37,43-45,51,54,57,60,62,82-86,88,92,100
+tests/e2e/common/rlhf/weight_transfer/npu_ipc.py
+  h_4df2eae582927b 4-9,13,17-18,22-30,33-36,40-45,49-50,54-56,58,60-95,103,106,109-110,112,114,122-127,129-180,185
+tests/e2e/common/rlhf/weight_transfer/reference_check.py
+  h_4df2eae582927b 1-267
+tests/e2e/common/rlhf/weight_transfer/weight_source.py
+  h_4df2eae582927b 4,11,20,187,196-198,242,250
+tests/e2e/common/single_node/single_node_config.py
+  h_4df2eae582927b 12
+tests/e2e/nightly/single_node/ops/multicard_ops_a3/test_sfa_cache_store.py
+  h_4df2eae582927b 27,31
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_kv_quant_sparse_flash_attention_vllm.py
+  h_4df2eae582927b 714,729,733-735
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_compute_topk_logprobs.py
+  h_4df2eae582927b 9,13-14,54-55,70-100
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_num_nans.py
+  h_4df2eae582927b 51
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_postprocess_mamba.py
+  h_4df2eae582927b 26
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_postprocess_temporal_copy.py
+  h_4df2eae582927b 10
+tests/e2e/pull_request/four_card/test_glm5_3_flash.py
+  h_4df2eae582927b 27,124-130,181
+tests/e2e/pull_request/four_card/test_graph_mode.py
+  h_4df2eae582927b 403
+tests/e2e/pull_request/four_card/test_sparse_hccl_checkpoint.py
+  h_4df2eae582927b 30
+tests/e2e/pull_request/one_card/_310p/test_embedding_310p.py
+  h_4df2eae582927b 66-67
+tests/e2e/pull_request/one_card/pooling/test_d3.py
+  h_4df2eae582927b 1-167
+tests/e2e/pull_request/one_card/rlhf/state_transitions/test_pause_resume.py
+  h_4df2eae582927b 31
+tests/e2e/pull_request/one_card/rlhf/state_transitions/test_sleep_wake.py
+  h_4df2eae582927b 34
+tests/e2e/pull_request/one_card/spec_decode/test_ngram_npu.py
+  h_4df2eae582927b 62-66,109
+tests/e2e/pull_request/one_card/test_gumbel_sampling.py
+  h_4df2eae582927b 607
+tests/e2e/pull_request/two_card/aclgraph/test_aclgraph_capture_replay.py
+  h_4df2eae582927b 40
+tests/e2e/pull_request/two_card/rlhf/state_transitions/test_pause_device_idle.py
+  h_4df2eae582927b 54
+tests/e2e/pull_request/two_card/rlhf/weight_transfer/__init__.py
+  h_4df2eae582927b 2
+tests/e2e/pull_request/two_card/rlhf/weight_transfer/hccl/__init__.py
+  h_4df2eae582927b 1-2
+tests/e2e/pull_request/two_card/rlhf/weight_transfer/hccl/test_qwen_hccl.py
+  h_4df2eae582927b 3-4,6,8-15,18-20
+tests/e2e/pull_request/two_card/rlhf/weight_transfer/ipc/__init__.py
+  h_4df2eae582927b 1-2
+tests/e2e/pull_request/two_card/rlhf/weight_transfer/ipc/test_glm_ipc.py
+  h_4df2eae582927b 1-2,4,6,8-20
+tests/e2e/pull_request/two_card/rlhf/weight_transfer/ipc/test_qwen_ipc.py
+  h_4df2eae582927b 2-4,6,8-15,18-20
+tests/e2e/pull_request/two_card/test_qwen3_moe_eplb.py
+  h_4df2eae582927b 46,54-58,60-69
+tests/ut/_310p/fused_moe/test_shared_fused_moe_310.py
+  h_4df2eae582927b 61,91
+tests/ut/_tools/build_cache_test_utils.py
+  h_4df2eae582927b 30,61
+tests/ut/_tools/test_build_cache.py
+  h_4df2eae582927b 103,128,2100-2223
+tests/ut/attention/test_attention_v1.py
+  h_4df2eae582927b 846-861
+tests/ut/attention/test_batch_invariance_support.py
+  h_4df2eae582927b 8
+tests/ut/attention/test_cache_store.py
+  h_4df2eae582927b 212,236
+tests/ut/attention/test_dsv4_compressor_metadata_cache.py
+  h_4df2eae582927b 10,22,41,69
+tests/ut/attention/test_flash_attn.py
+  h_4df2eae582927b 504
+tests/ut/attention/test_gqa_dcp_split.py
+  h_4df2eae582927b 313-314,357-358
+tests/ut/attention/test_mla_v1.py
+  h_4df2eae582927b 1915-1916,2774-2775,2805
+tests/ut/attention/test_o_proj_forward_lifecycle.py
+  h_4df2eae582927b 11,13,43,47-48,50,103,112,128,131,170,174,194,207,262-265,275-276,282,287,297-300,304-305,310-342,344-351
+tests/ut/attention/test_sfa_cp.py
+  h_4df2eae582927b 24,40-63,143,190-191,230-231,233,244,297,332,353,383-384,391,394-395,398,411,414,423-429,431-436,439-442,619,638,654-655,662,680-689,691-703,706-731,734,737-740,744-745,748,751,753-773,775-784,788-796,798-799,801,803,805,807-812,818-819,823-824,826,830-834,836,839-840,842-853,857,867,873,884-886,912-914,917,920,930,973,1003,1005,1007,1020,1035,1062,1090-1094,1101,1123,1129,1133,1137,1139-1144,1148,1412,1417-1420,1422,1553,1581,1595,1607,1609-1613,1616-1618,1620,1630,1640-1641,1678-1683,1720-1727,1729-1732,1735-1736,1891-1892,1915,1917-1918,1920-1921,1928-1929,1947,1949-1950,1952-1953,1959-1963,1965-1966,1969,1973-1976,1978,1980-1991,2011,2013-2014,2016,2063-2413
+tests/ut/attention/test_sfa_cp_precision.py
+  h_4df2eae582927b 99,102,107-108,220,224-226,325-396
+tests/ut/attention/test_sfa_dcp.py
+  h_4df2eae582927b 246,248-253,260,271,323
+tests/ut/attention/test_sfa_nope_forward.py
+  h_4df2eae582927b 14,44-50,67-73,87-93,460-461,464,467,469-472,496-497,506,523-525,531
+tests/ut/attention/test_sfa_v1.py
+  h_4df2eae582927b 86,94,655,1132-1133,1296-1297,1318,1768,1852
+tests/ut/core/test_dyntra_lb_scheduler.py
+  h_4df2eae582927b 479-579
+tests/ut/core/test_kv_cache_config_builder.py
+  h_4df2eae582927b 2-10,13-20,23-24,26,31-41,44-54,58-95,97-105,107-113
+tests/ut/core/test_kv_cache_interface.py
+  h_4df2eae582927b 10-13
+tests/ut/distributed/ascend_store/test_ascend_store_connector.py
+  h_4df2eae582927b 675-681
+tests/ut/distributed/ascend_store/test_pool_scheduler.py
+  h_4df2eae582927b 212
+tests/ut/distributed/ascend_store/test_pool_worker.py
+  h_4df2eae582927b 175
+tests/ut/distributed/ascend_store/test_request_lifecycle.py
+  h_4df2eae582927b 242-243,354-357,437
+tests/ut/distributed/device_communicators/test_quantized_all_reduce.py
+  h_4df2eae582927b 2-3,16-33,39-54,56-146,148-226
+tests/ut/distributed/eplb/test_hixl_communicator.py
+  h_4df2eae582927b 721
+tests/ut/distributed/kv_transfer/kv_p2p/test_mooncake_connector.py
+  h_4df2eae582927b 21-27,62
+tests/ut/distributed/weight_transfer/test_e2e_weight_transfer_oracle.py
+  h_4df2eae582927b 31-37
+tests/ut/distributed/weight_transfer/test_hccl_engine.py
+  h_4df2eae582927b 224,270,325-326,333
+tests/ut/kv_offload/test_ascend_multi_connector.py
+  h_4df2eae582927b 355-362
+tests/ut/kv_offload/test_mooncake_layerwise_connector.py
+  h_4df2eae582927b 4,80-85,1449-1451,1453-1455,1457-1458,1461,1470-1487,1496,1499-1502,1506-1509
+tests/ut/kv_offload/test_npu_offload_spec.py
+  h_4df2eae582927b 177,179-185,193,213,221
+tests/ut/kv_offload/test_sfa_pd_peer_restart.py
+  h_4df2eae582927b 39
+tests/ut/kv_offload/test_sfa_pd_rd2h_connector.py
+  h_4df2eae582927b 68-108
+tests/ut/kv_offload/test_sfa_pd_rd2h_lifecycle.py
+  h_4df2eae582927b 4,11,26-29,71,106-111,113,143-152,156,164,187-190,192-199
+tests/ut/kv_transfer/test_ascend_store_layerwise_lifecycle.py
+  h_4df2eae582927b 225-226
+tests/ut/models/minimax_m3/test_msa_m3.py
+  h_4df2eae582927b 987
+tests/ut/models/qwen4_exp/test_qsa_layerwise_hooks.py
+  h_4df2eae582927b 42
+tests/ut/models/qwen4_exp/test_qsa_upstream_abi.py
+  h_4df2eae582927b 51,87
+tests/ut/models/test_d3_registration.py
+  h_4df2eae582927b 2,4-5,7,9,11-18,21-28,30-33,35-44
+tests/ut/models/test_deepseek_v41_cache.py
+  h_4df2eae582927b 21-24,1583-1597
+tests/ut/models/test_deepseek_v4_dspark_eplb.py
+  h_4df2eae582927b 3,5,9-11,13-53,55-106,108-120
+tests/ut/models/test_deepseek_v4_weight_loader_reload.py
+  h_4df2eae582927b 60
+tests/ut/models/test_engram.py
+  h_4df2eae582927b 295-305
+tests/ut/models/test_glm5next_kda_contracts.py
+  h_4df2eae582927b 5,106-107,115-116,120-122
+tests/ut/models/test_glm5next_mtp_sp.py
+  h_4df2eae582927b 8-45,47-73,75-78,80-145
+tests/ut/models/test_glm5next_recoverssm_metadata.py
+  h_4df2eae582927b 97
+tests/ut/models/test_kimi_k3_mla_quantization.py
+  h_4df2eae582927b 1-3,6,10-31,33-34,37-40,42-50,54-91,95-104,106-229,231-274
+tests/ut/models/test_kimi_k3_mtp_gate_loading.py
+  h_4df2eae582927b 1-2,5,9-10,12-13,16-22,24-28,30-31,34-36,38-39,42-89
+tests/ut/models/test_qwen4_exp_cache_config.py
+  h_4df2eae582927b 9,547,614,635,825
+tests/ut/models/test_qwen4_exp_soc_gating.py
+  h_4df2eae582927b 93
+tests/ut/models/test_qwen4_exp_vl_preprocess.py
+  h_4df2eae582927b 1-169
+tests/ut/ops/test_fla_lazy_imports.py
+  h_4df2eae582927b 129-132,140,143-144
+tests/ut/ops/test_fused_moe.py
+  h_4df2eae582927b 167-168,170-174,218,223
+tests/ut/ops/test_gdn_spec_recurrent_dispatch.py
+  h_4df2eae582927b 1,3,6,8,10-13,16,19-41,43-44,46-48,50-55,57-63,65-66,68-69,71-75,77-78,80-82
+tests/ut/ops/test_mm_encoder_attention.py
+  h_4df2eae582927b 4,8-9,120-167
+tests/ut/ops/test_rotary_embedding.py
+  h_4df2eae582927b 150,640-673
+tests/ut/ops/test_token_dispatcher.py
+  h_4df2eae582927b 93,177-217
+tests/ut/patch/platform/test_packed_kv_cache_compat.py
+  h_4df2eae582927b 10-11
+tests/ut/patch/platform/test_patch_balance_schedule.py
+  h_4df2eae582927b 71,861-933
+tests/ut/patch/platform/test_patch_eplb.py
+  h_4df2eae582927b 543-644
+tests/ut/patch/platform/test_patch_fused_moe.py
+  h_4df2eae582927b 127,153
+tests/ut/patch/platform/test_patch_pp_mtp.py
+  h_4df2eae582927b 317,319
+tests/ut/patch/platform/test_patch_use_v2_model_runner.py
+  h_4df2eae582927b 7-8
+tests/ut/patch/platform/test_prefix_cache_cp_patches.py
+  h_4df2eae582927b 921-925
+tests/ut/patch/worker/patch_common/test_patch_distributed.py
+  h_4df2eae582927b 193
+tests/ut/patch/worker/test_deepseek_pp_embedding.py
+  h_4df2eae582927b 2,5,7,9-32,34-38,40-57,59-81,83-134,136-137,139-145,147-162
+tests/ut/patch/worker/test_patch_deepseek_v2.py
+  h_4df2eae582927b 200,232
+tests/ut/patch/worker/test_patch_mm_input_norm.py
+  h_4df2eae582927b 17-18
+tests/ut/patch/worker/test_patch_step3p5.py
+  h_4df2eae582927b 1-145
+tests/ut/patch/worker/test_patch_v2_gumbel.py
+  h_4df2eae582927b 56,102
+tests/ut/quantization/configs/test_compressed_tensors_config.py
+  h_4df2eae582927b 173
+tests/ut/quantization/configs/test_modelopt_mxfp8_config.py
+  h_4df2eae582927b 127
+tests/ut/quantization/configs/test_modelslim_config.py
+  h_4df2eae582927b 275
+tests/ut/runtime_config/test_runtime_config_core.py
+  h_4df2eae582927b 45,131
+tests/ut/runtime_guard/test_detectors_and_kv.py
+  h_4df2eae582927b 160-161,163-164,205,239,245-246
+tests/ut/runtime_guard/test_hooks.py
+  h_4df2eae582927b 88,90,99,117,127,136,178
+tests/ut/runtime_guard/test_hot_path_overhead.py
+  h_4df2eae582927b 145,162,181,215,231-232,251-252,257-304,345,351,356-390,408,434-471
+tests/ut/runtime_guard/test_manual_dump_detail.py
+  h_4df2eae582927b 83
+tests/ut/runtime_guard/test_review_regressions.py
+  h_4df2eae582927b 209,221,223,233,262,282,684-685,2229,2238,2248-2249,2271,2275,2345
+tests/ut/runtime_guard/test_wave_and_actions.py
+  h_4df2eae582927b 27,30,36
+tests/ut/spec_decode/test_dflash2_v2.py
+  h_4df2eae582927b 170-171,610
+tests/ut/spec_decode/test_dspark_pcp_dp_sync.py
+  h_4df2eae582927b 40,90
+tests/ut/spec_decode/test_dspark_valid_kv_lengths.py
+  h_4df2eae582927b 27-28
+tests/ut/spec_decode/test_mla_dspark.py
+  h_4df2eae582927b 66
+tests/ut/spec_decode/test_speculators_vwn_eagle3.py
+  h_4df2eae582927b 160
+tests/ut/test_ascend_config.py
+  h_4df2eae582927b 44,117-137,386-440,2046-2054
+tests/ut/test_compressed_prefix_cache.py
+  h_4df2eae582927b 11-14
+tests/ut/test_envs.py
+  h_4df2eae582927b 22-31,35,49-51,71-112
+tests/ut/test_mrv2_utils.py
+  h_4df2eae582927b 26-27,30-31,35-36,38-39,42-43,45,48-49,51-52,55-56,58-60,62-63,70,75-78,85-86
+tests/ut/test_platform.py
+  h_4df2eae582927b 435-439
+tests/ut/test_profiling_config.py
+  h_4df2eae582927b 12-13,18-19
+tests/ut/test_rlhf_server_logging.py
+  h_4df2eae582927b 7
+tests/ut/test_utils.py
+  h_4df2eae582927b 931-942
+tests/ut/worker/test_adaptive_verification.py
+  h_4df2eae582927b 85
+tests/ut/worker/test_glm5next_pooled_cache.py
+  h_4df2eae582927b 243-252,269,271-291,294-296
+tests/ut/worker/test_layerwise_kv_allocation.py
+  h_4df2eae582927b 18,65-66,69-71,73-85,87-93
+tests/ut/worker/test_lmhead_mc2_dp_sync.py
+  h_4df2eae582927b 1-73
+tests/ut/worker/test_mla_dcp_metadata_v2.py
+  h_4df2eae582927b 118-119
+tests/ut/worker/test_model_runner_v2.py
+  h_4df2eae582927b 44-46,59,96-101,103,118-120,132-133,502,974,2293-2349
+tests/ut/worker/test_model_runner_v2_finegrained_tp.py
+  h_4df2eae582927b 45,228-229,294
+tests/ut/worker/test_model_runner_v2_kv_cache.py
+  h_4df2eae582927b 106
+tests/ut/worker/test_mtp_pcp_speculator_v2.py
+  h_4df2eae582927b 356,360
+tests/ut/worker/test_pcp_manager_v2.py
+  h_4df2eae582927b 1191,1213,1374
+tests/ut/worker/test_routing_replay.py
+  h_4df2eae582927b 15
+tests/ut/worker/test_spec_decode_utils.py
+  h_4df2eae582927b 9
+tests/ut/worker/test_v2_dummy_padding.py
+  h_4df2eae582927b 142,173-176
+tests/ut/worker/test_worker_v2.py
+  h_4df2eae582927b 88-89,91,93
+tests/ut/worker/v2/test_lmhead_tp_utils.py
+  h_4df2eae582927b 3-9,13-101,103-104,106-112,114-121,123-139,141-149
+tests/ut/worker/v2/test_speculator.py
+  h_4df2eae582927b 11,34,246-247,251-253,255-258,262-275,485,524,624,694,789-811
+vllm_ascend/_310p/fused_moe/fused_moe.py
+  h_4df2eae582927b 143-144
+vllm_ascend/_310p/worker/v2/rejection_sampler.py
+  h_4df2eae582927b 28
+vllm_ascend/_310p/worker/v2/sample/bad_words.py
+  h_4df2eae582927b 4,43-47
+vllm_ascend/_310p/worker/v2/sample_utils.py
+  h_4df2eae582927b 5-6
+vllm_ascend/_310p/worker/v2/spec_utils.py
+  h_4df2eae582927b 374
+vllm_ascend/_310p/worker_310p.py
+  h_4df2eae582927b 27-29,31,52,54-55
+vllm_ascend/ascend_config.py
+  h_4df2eae582927b 360-364,408-451,542-545,682,767-772,822-833,962,1962
+vllm_ascend/attention/attention_v1.py
+  h_4df2eae582927b 578-586,1413-1417
+vllm_ascend/attention/context_parallel/attention_cp.py
+  h_4df2eae582927b 25,136-141,412-416
+vllm_ascend/attention/context_parallel/sfa_cp.py
+  h_4df2eae582927b 3,20-21,36,50,78-80,536-537,540-541,565,567-605,717-730,925,1003
+vllm_ascend/attention/context_parallel/sfa_dcp_utils.py
+  h_4df2eae582927b 1,3-4,13-24
+vllm_ascend/attention/mla_v1.py
+  h_4df2eae582927b 3,148,1006-1012,1165,1170-1171,3087-3089,3091-3094,3096,3098-3113
+vllm_ascend/attention/sfa_v1.py
+  h_4df2eae582927b 3,7,10,22,62,73-74,80,376-381,383-386,404-405,407-408,760-763,812,887-913,973,976-977,1001-1003,1029-1034,1251-1252,1257-1279,1687,1692,1695-1706,1708-1733,1735-1742,1744-1774,1781-1785,1793-1795,1904-1928,1966-1970,2004-2010,2012-2014,2023,2032,2036-2037,2064,2072,2074-2076,2100,2106
+vllm_ascend/core/dyntra_lb_scheduler.py
+  h_4df2eae582927b 435-436,598,1004-1006,1172-1173
+vllm_ascend/core/kv_cache_config_builder.py
+  h_4df2eae582927b 2-14,17-32,34-39,42,45,49-53,57-104,110-113,115-413
+vllm_ascend/core/recompute_scheduler.py
+  h_4df2eae582927b 49,435
+vllm_ascend/core/scheduler_profiling_chunk.py
+  h_4df2eae582927b 91-97,536
+vllm_ascend/distributed/device_communicators/npu_communicator.py
+  h_4df2eae582927b 21-26,69-90
+vllm_ascend/distributed/device_communicators/quantized_all_reduce.py
+  h_4df2eae582927b 2-3,16-55,57-60,63-65,69-151
+vllm_ascend/distributed/kv_transfer/ascend_multi_connector.py
+  h_4df2eae582927b 131-132,136-141
+vllm_ascend/distributed/kv_transfer/kv_p2p/sfa_pd_rd2h/send_thread.py
+  h_4df2eae582927b 79,86,159
+vllm_ascend/distributed/kv_transfer/kv_p2p/sfa_pd_rd2h/worker.py
+  h_4df2eae582927b 863
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/ascend_store_connector.py
+  h_4df2eae582927b 407-408,412-417
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/pool_scheduler.py
+  h_4df2eae582927b 89
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/pool_worker.py
+  h_4df2eae582927b 411
+vllm_ascend/distributed/kv_transfer/kv_pool/kv_offload/native/npu.py
+  h_4df2eae582927b 76-77
+vllm_ascend/distributed/kv_transfer/sparse_kv_offload/sparse_kv_offload_manager.py
+  h_4df2eae582927b 33
+vllm_ascend/distributed/weight_transfer/hccl_engine.py
+  h_4df2eae582927b 298
+vllm_ascend/distributed/weight_transfer/npu_ipc_engine.py
+  h_4df2eae582927b 270-271
+vllm_ascend/ec_manager/score_ec_manager.py
+  h_4df2eae582927b 111-113,306-310,418-422,427-439,444-447,541
+vllm_ascend/envs.py
+  h_4df2eae582927b 25-44,64,76
+vllm_ascend/models/__init__.py
+  h_4df2eae582927b 98-101
+vllm_ascend/models/d3.py
+  h_4df2eae582927b 1-2,4-43
+vllm_ascend/models/deepseek_v4/compressor.py
+  h_4df2eae582927b 31-33
+vllm_ascend/models/deepseek_v4/dspark.py
+  h_4df2eae582927b 388,395,442,510
+vllm_ascend/models/deepseek_v4/indexer.py
+  h_4df2eae582927b 34-36
+vllm_ascend/models/deepseek_v4/mm_preprocess.py
+  h_4df2eae582927b 32-34
+vllm_ascend/models/deepseek_v4/model.py
+  h_4df2eae582927b 35-39,339,699-709
+vllm_ascend/models/deepseek_v41/cache_config.py
+  h_4df2eae582927b 9-11
+vllm_ascend/models/deepseek_v41/engram/common.py
+  h_4df2eae582927b 21,24-33
+vllm_ascend/models/deepseek_v41/model.py
+  h_4df2eae582927b 568
+vllm_ascend/models/glm5next/cache_config.py
+  h_4df2eae582927b 17-22
+vllm_ascend/models/glm5next/model.py
+  h_4df2eae582927b 83,386,429-431,435-437,442-443,445-448,450-456,794-797
+vllm_ascend/models/glm5next/mtp.py
+  h_4df2eae582927b 30,349-352
+vllm_ascend/models/glm5next/ops/kda.py
+  h_4df2eae582927b 85
+vllm_ascend/models/kimi_k3.py
+  h_4df2eae582927b 33,94,96,413-422,438-448,915,926-935,948,951,1160-1162,1164,1202-1203,1205-1210,1212
+vllm_ascend/models/kimi_k3_mtp.py
+  h_4df2eae582927b 121-122,129-142,144
+vllm_ascend/models/qwen4_exp/cpu_length_sync.py
+  h_4df2eae582927b 27
+vllm_ascend/models/qwen4_exp/model.py
+  h_4df2eae582927b 18,22,24-28,95-106
+vllm_ascend/models/qwen4_exp/qsa.py
+  h_4df2eae582927b 54,67,269,453,502,719,787,820
+vllm_ascend/mrv2_utils.py
+  h_4df2eae582927b 20,32-35,38-40,42-52,56-57,59-66,74-77,79-83,87-89
+vllm_ascend/observability/ms_metrics/config/base_metrics.yaml
+  h_4df2eae582927b 13,16,21
+vllm_ascend/observability/runtime_config/config.py
+  h_4df2eae582927b 804,806-807,815-816,857,890-891,894-895
+vllm_ascend/observability/runtime_guard/detector/manager.py
+  h_4df2eae582927b 149,155-156,172,208,221-223
+vllm_ascend/observability/runtime_guard/detector/token_repeat.py
+  h_4df2eae582927b 200
+vllm_ascend/observability/runtime_guard/hooks.py
+  h_4df2eae582927b 44,63,81-82,88,106,348-350
+vllm_ascend/observability/runtime_guard/io.py
+  h_4df2eae582927b 202,204,227-228
+vllm_ascend/observability/runtime_guard/processor.py
+  h_4df2eae582927b 236,256,289-290,297,299-304,311,314-329,334-335,341,343,345,359-362,410,500-505,508,548
+vllm_ascend/observability/runtime_guard/processor_dump.py
+  h_4df2eae582927b 133,140,158
+vllm_ascend/observability/runtime_guard/processor_report.py
+  h_4df2eae582927b 58,66
+vllm_ascend/observability/runtime_guard/state.py
+  h_4df2eae582927b 165-166,233-234
+vllm_ascend/ops/fused_moe/fused_moe.py
+  h_4df2eae582927b 29
+vllm_ascend/ops/fused_moe/routed_experts.py
+  h_4df2eae582927b 65,407
+vllm_ascend/ops/fused_moe/router/router_factory.py
+  h_4df2eae582927b 101
+vllm_ascend/ops/fused_moe/token_dispatcher.py
+  h_4df2eae582927b 54,146-150
+vllm_ascend/ops/gdn.py
+  h_4df2eae582927b 92-97,188-193,719-722,725
+vllm_ascend/ops/gdn_attn_builder.py
+  h_4df2eae582927b 837-838
+vllm_ascend/ops/kda.py
+  h_4df2eae582927b 73,82-88,90-91,104
+vllm_ascend/ops/kimi_kda.py
+  h_4df2eae582927b 45,438-443
+vllm_ascend/ops/kimi_mla.py
+  h_4df2eae582927b 18
+vllm_ascend/ops/linear.py
+  h_4df2eae582927b 45,118
+vllm_ascend/ops/mm_encoder_attention.py
+  h_4df2eae582927b 28,33,51-70
+vllm_ascend/ops/rotary_embedding.py
+  h_4df2eae582927b 733-734,742
+vllm_ascend/ops/triton/README.md
+  h_4df2eae582927b 3-6,8,14,26-27,34,42,55,59-61,67
+vllm_ascend/ops/triton/docs/mamba_postprocess.md
+  h_4df2eae582927b 5-6
+vllm_ascend/ops/triton/docs/pcp_kv_cache.md
+  h_4df2eae582927b 6,62
+vllm_ascend/ops/triton/docs/prepare_dflash_inputs.md
+  h_4df2eae582927b 6,12,100,121
+vllm_ascend/ops/triton/docs/selected_token_ranks.md
+  h_4df2eae582927b 1-3,7-13,15-22,26-27,30-39,43-50,54,56-58,62-71,74
+vllm_ascend/ops/triton/docs/triton_description_specification.md
+  h_4df2eae582927b 4,7-8
+vllm_ascend/ops/triton/sample/categorical_sample.py
+  h_4df2eae582927b 428
+vllm_ascend/patch/__init__.py
+  h_4df2eae582927b 220,261-262,303-304,306-307,309-313,726,811-812,814-816,896-912,978,1024-1033,1035,1037-1038,1040-1041,1043-1045,1047,1065-1067,1200,1573-1574,1635,1637-1638,1643
+vllm_ascend/patch/platform/__init__.py
+  h_4df2eae582927b 82,97-101
+vllm_ascend/patch/platform/patch_balance_schedule.py
+  h_4df2eae582927b 195-196,350,704-706,852
+vllm_ascend/patch/platform/patch_eplb.py
+  h_4df2eae582927b 610-612,666-703
+vllm_ascend/patch/platform/patch_kv_cache_coordinator.py
+  h_4df2eae582927b 140,152-159,177,579-580
+vllm_ascend/patch/platform/patch_kv_cache_utils.py
+  h_4df2eae582927b 9-10,15,521-522,524,527,650,654-664,666-679
+vllm_ascend/patch/platform/patch_pp_mtp.py
+  h_4df2eae582927b 231
+vllm_ascend/patch/platform/patch_speculative_config.py
+  h_4df2eae582927b 13,90
+vllm_ascend/patch/platform/patch_structured_output.py
+  h_4df2eae582927b 166,201
+vllm_ascend/patch/platform/patch_use_v2_model_runner.py
+  h_4df2eae582927b 3-6
+vllm_ascend/patch/worker/__init__.py
+  h_4df2eae582927b 21,51-53,59-60,75-78
+vllm_ascend/patch/worker/patch_adaptive_verification.py
+  h_4df2eae582927b 3-4
+vllm_ascend/patch/worker/patch_attn_utils.py
+  h_4df2eae582927b 30,33,98-101
+vllm_ascend/patch/worker/patch_deepseek_v2.py
+  h_4df2eae582927b 25,36,311-323
+vllm_ascend/patch/worker/patch_distributed.py
+  h_4df2eae582927b 30,124
+vllm_ascend/patch/worker/patch_kimi_k25.py
+  h_4df2eae582927b 29-30,50
+vllm_ascend/patch/worker/patch_mamba_utils.py
+  h_4df2eae582927b 3,5,8-9,18-22,30-41,43-44,46-63
+vllm_ascend/patch/worker/patch_model_runner.py
+  h_4df2eae582927b 218
+vllm_ascend/patch/worker/patch_step3p5.py
+  h_4df2eae582927b 57-60,230-252,261
+vllm_ascend/patch/worker/patch_uva.py
+  h_4df2eae582927b 261
+vllm_ascend/platform.py
+  h_4df2eae582927b 122-125,575-576,605-619,1958-1969
+vllm_ascend/profiling_config.py
+  h_4df2eae582927b 75,197
+vllm_ascend/quantization/configs/compressed_tensors_config.py
+  h_4df2eae582927b 176
+vllm_ascend/quantization/configs/fp8_config.py
+  h_4df2eae582927b 115,163
+vllm_ascend/quantization/configs/modelopt_mxfp8_config.py
+  h_4df2eae582927b 64
+vllm_ascend/quantization/configs/modelslim_config.py
+  h_4df2eae582927b 662-671,787-789,799,834-846,850,914
+vllm_ascend/quantization/method_adapters.py
+  h_4df2eae582927b 277
+vllm_ascend/quantization/methods/kv_cache/turboquant/cache.py
+  h_4df2eae582927b 14-16
+vllm_ascend/utils.py
+  h_4df2eae582927b 972-982
+vllm_ascend/worker/dcp_utils.py
+  h_4df2eae582927b 32,361,480,668
+vllm_ascend/worker/spec_decode_utils.py
+  h_4df2eae582927b 30
+vllm_ascend/worker/utils.py
+  h_4df2eae582927b 59
+vllm_ascend/worker/v2/aclgraph_utils.py
+  h_4df2eae582927b 161-162
+vllm_ascend/worker/v2/attn_utils.py
+  h_4df2eae582927b 134,374-375
+vllm_ascend/worker/v2/model_runner.py
+  h_4df2eae582927b 111,342-343,345,639-645,647,671,677,1106-1114,1123,1147-1148,1166,1392
+vllm_ascend/worker/v2/model_states/default.py
+  h_4df2eae582927b 63,530,567-569
+vllm_ascend/worker/v2/pcp_manager.py
+  h_4df2eae582927b 119,373-389,589-590,601
+vllm_ascend/worker/v2/sample/logprob.py
+  h_4df2eae582927b 116
+vllm_ascend/worker/v2/sample/rejection_greedy.py
+  h_4df2eae582927b 6-8,23-24,52,73
+vllm_ascend/worker/v2/spec_decode/dflash/speculator.py
+  h_4df2eae582927b 129
+vllm_ascend/worker/v2/spec_decode/dspark/speculator.py
+  h_4df2eae582927b 19,68,79,301-312,316-319,322,343,453-458,465,468
+vllm_ascend/worker/v2/spec_decode/lmhead_tp_utils.py
+  h_4df2eae582927b 5-6,10-13,23-25,40-62,94-108,118-142
+vllm_ascend/worker/v2/spec_decode/multi_module_mtp/speculator.py
+  h_4df2eae582927b 54
+vllm_ascend/worker/v2/spec_decode/rejection_sampler_utils.py
+  h_4df2eae582927b 355,406-407,430,512,566
+vllm_ascend/worker/v2/spec_decode/standalone_ar/speculator.py
+  h_4df2eae582927b 22
+vllm_ascend/worker/v2/spec_decode/target_dependent_ar/aclgraph.py
+  h_4df2eae582927b 191-192
+vllm_ascend/worker/v2/spec_decode/target_dependent_ar/speculator.py
+  h_4df2eae582927b 85,284-287,435-444,497
+vllm_ascend/worker/worker.py
+  h_4df2eae582927b 59-60,65,122-127,580-581,583,585-586,588-589,1176-1178,1180-1185,1319-1320,1355-1357
+vllm_ascend/xlite/xlite.py
+  h_4df2eae582927b 23-24,37,54,57,93,121-122,246-247,368-387,749,770-771,810-855,879-881,887,898-904,906-908,910-929,934-938,940,942,945,947,950,955-957,964,971
+vllm_ascend/xlite/xlite_model_runner.py
+  h_4df2eae582927b 152,156-157,159-165,168
+vllm_ascend/xlite/xlite_worker.py
+  h_4df2eae582927b 36-37
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "8e2c486d7d9fd3b75e20b5310bdc62fb07675928",
+  "prompts": {},
+  "humans": {
+    "h_4df2eae582927b": {
+      "author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
