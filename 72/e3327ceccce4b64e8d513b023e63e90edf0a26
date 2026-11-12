@@ -1,0 +1,19 @@
+vllm_ascend/attention/mla_v1.py
+  s_88bd73b2a72a3a::t_53c6f382ce13b3 928,2811
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "72e3327ceccce4b64e8d513b023e63e90edf0a26",
+  "prompts": {},
+  "sessions": {
+    "s_88bd73b2a72a3a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ce6d-ae03-7f91-a49a-5e2cda4d1b8a",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
