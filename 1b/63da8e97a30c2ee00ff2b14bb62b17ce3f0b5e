@@ -1,0 +1,21 @@
+tests/ut/attention/test_mla_fp8_decode_layout.py
+  s_d27a7523c447ce::t_fe79fbab4a2f3d 70-71,131-135,188,199-204,208,210,212,222,234-237
+  s_d27a7523c447ce::t_acd558c787064e 205-206
+  s_d27a7523c447ce::t_53f25cbb69dea7 129
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "1b63da8e97a30c2ee00ff2b14bb62b17ce3f0b5e",
+  "prompts": {},
+  "sessions": {
+    "s_d27a7523c447ce": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1cdcf-8c9b-7421-bde4-883992e8f3de",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
