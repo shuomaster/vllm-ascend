@@ -1,0 +1,27 @@
+vllm_ascend/worker/v2/spec_decode/multi_module_mtp/speculator.py
+  s_6ddff85854d908::t_798acf90ba1181 20,221,231
+vllm_ascend/utils.py
+  s_6ddff85854d908::t_4b2026e04deca1 1898,1900
+tests/ut/test_utils.py
+  s_6ddff85854d908::t_d8fb011b251e64 33-39
+  s_6ddff85854d908::t_eb1ebe92a308f5 40-46
+  s_6ddff85854d908::t_3679fc2fb3d461 47-48
+vllm_ascend/worker/v2/spec_decode/target_dependent_ar/speculator.py
+  s_6ddff85854d908::t_798acf90ba1181 30,716,745
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "ca94e1d0ae1d79bc4048c7f39e64aff2e423b8c0",
+  "prompts": {},
+  "sessions": {
+    "s_6ddff85854d908": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1be17-9024-7e82-abdc-1b74e16e952f",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
