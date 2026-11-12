@@ -1,0 +1,27 @@
+vllm_ascend/attention/mla_v1.py
+  s_d27a7523c447ce::t_7bbffa4496aca8 65,907-949,2795-2801,2804-2820,2822-2828,2830-2834,2836
+vllm_ascend/worker/v2/spec_decode/multi_module_mtp/speculator.py
+  s_d27a7523c447ce::t_7bbffa4496aca8 20,201,204,212-216,219-239
+tests/ut/test_utils.py
+  s_d27a7523c447ce::t_7bbffa4496aca8 33-51
+vllm_ascend/utils.py
+  s_d27a7523c447ce::t_7bbffa4496aca8 1908-1921
+vllm_ascend/worker/v2/spec_decode/target_dependent_ar/speculator.py
+  s_d27a7523c447ce::t_7bbffa4496aca8 30,708-744,759
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "8dda58d835378e44a7151c7441ae4826cd4c752b",
+  "prompts": {},
+  "sessions": {
+    "s_d27a7523c447ce": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1cdcf-8c9b-7421-bde4-883992e8f3de",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
