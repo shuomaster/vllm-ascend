@@ -1,0 +1,22 @@
+tests/ut/worker/v2/test_speculator.py
+  s_88bd73b2a72a3a::t_8b6552042ecb0e 503-504,507,515-516,519,526-529,539-540
+vllm_ascend/worker/v2/spec_decode/target_dependent_ar/speculator.py
+  s_88bd73b2a72a3a::t_e15c3326a0e332 707,709-719,730-737
+  s_88bd73b2a72a3a::t_7ee81698bdbfc4 738-739
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "5fa837a7b0e90df0a756bc4104745d28f3b0adcd",
+  "prompts": {},
+  "sessions": {
+    "s_88bd73b2a72a3a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ce6d-ae03-7f91-a49a-5e2cda4d1b8a",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
