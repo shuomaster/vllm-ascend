@@ -1,0 +1,21 @@
+tests/ut/attention/test_mla_v1.py
+  s_d27a7523c447ce::t_b4dc0117edc8ca 25-26,2058-2060,2062,2064,2066-2068,2070,2072-2073,2075-2084,2086,2088-2090
+tests/e2e/pull_request/one_card/test_mla_fp8_decode_layout_a5.py
+  s_d27a7523c447ce::t_5fe9c0524149f3 25,84,112,191,208,215,222-223,231-232,252-253,285
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "80cf62a266b17edb6a22985339be48f88d683948",
+  "prompts": {},
+  "sessions": {
+    "s_d27a7523c447ce": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1cdcf-8c9b-7421-bde4-883992e8f3de",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
