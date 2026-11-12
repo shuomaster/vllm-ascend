@@ -1,0 +1,27 @@
+vllm_ascend/worker/v2/spec_decode/target_dependent_ar/speculator.py
+  h_4df2eae582927b 735-736
+  h_4df2eae582927b 714-715,723
+vllm_ascend/compilation/updatable_graph.py
+  h_4df2eae582927b 69
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "139caaac7713ca770034faa7dd4c94cd8f286261",
+  "prompts": {},
+  "humans": {
+    "h_4df2eae582927b": {
+      "author": "shuomaster <1967838808@qq.com>"
+    }
+  },
+  "sessions": {
+    "s_88bd73b2a72a3a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ce6d-ae03-7f91-a49a-5e2cda4d1b8a",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
