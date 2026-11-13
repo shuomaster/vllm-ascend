@@ -1,0 +1,23 @@
+tests/ut/attention/test_gqa_dcp_split.py
+  s_88bd73b2a72a3a::t_e685e6aba53f18 383-390,419-427
+  s_88bd73b2a72a3a::t_293f770391cd5e 428
+tests/ut/compilation/test_acl_graph.py
+  s_88bd73b2a72a3a::t_e685e6aba53f18 1132-1138
+  s_88bd73b2a72a3a::t_04b39c09458a86 1139
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "ded6cddb7a39cdae8a5bf57040a996aeddb9699a",
+  "prompts": {},
+  "sessions": {
+    "s_88bd73b2a72a3a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ce6d-ae03-7f91-a49a-5e2cda4d1b8a",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
