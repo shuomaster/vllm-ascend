@@ -1,0 +1,19 @@
+vllm_ascend/utils.py
+  s_b2477d3ac24d77::t_dda77d5ebc8f4a 1943-1945,1948-1952,1956
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "c5e2b137c54b26f5b77a2c0e50d34a65db268c52",
+  "prompts": {},
+  "sessions": {
+    "s_b2477d3ac24d77": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1e3b7-6ee9-7140-91e4-53c636c0ed67",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
