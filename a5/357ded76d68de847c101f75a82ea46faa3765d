@@ -1,0 +1,14 @@
+vllm_ascend/worker/v2/spec_decode/target_dependent_ar/speculator.py
+  h_4df2eae582927b 733-739,741-747
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "a5357ded76d68de847c101f75a82ea46faa3765d",
+  "prompts": {},
+  "humans": {
+    "h_4df2eae582927b": {
+      "author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
