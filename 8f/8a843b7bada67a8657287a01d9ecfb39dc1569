@@ -1,5 +1,6 @@
 vllm_ascend/attention/mla_v1.py
   s_d27a7523c447ce::t_7bbffa4496aca8 65,974-1016,2861-2867,2870-2883,2885-2886,2888-2894,2896-2900,2902
+  s_88bd73b2a72a3a::t_18dc0b4973744d 2884
 vllm_ascend/worker/v2/spec_decode/multi_module_mtp/speculator.py
   s_d27a7523c447ce::t_7bbffa4496aca8 20,206,209,217-221,224-244
 tests/ut/test_utils.py
@@ -15,6 +16,14 @@ vllm_ascend/worker/v2/spec_decode/target_dependent_ar/speculator.py
   "base_commit_sha": "8f8a843b7bada67a8657287a01d9ecfb39dc1569",
   "prompts": {},
   "sessions": {
+    "s_88bd73b2a72a3a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ce6d-ae03-7f91-a49a-5e2cda4d1b8a",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    },
     "s_d27a7523c447ce": {
       "agent_id": {
         "tool": "codex",
