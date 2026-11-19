@@ -5,6 +5,7 @@ vllm_ascend/attention/mla_v1.py
   s_88bd73b2a72a3a::t_e979d70614abb4 975,977,980,985-999
   s_88bd73b2a72a3a::t_8fef87e4946dc6 978,1000
   s_88bd73b2a72a3a::t_18dd5ee80c5882 2876-2889,2891-2892
+  s_88bd73b2a72a3a::t_172a1e47d6b94f 2890
 ---
 {
   "schema_version": "authorship/3.0.0",
