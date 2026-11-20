@@ -1,0 +1,20 @@
+vllm_ascend/worker/v2/spec_decode/target_dependent_ar/speculator.py
+  s_88bd73b2a72a3a::t_f9af0bb1a29704 742-746
+  s_88bd73b2a72a3a::t_fe0a5193e4240e 739-741,747-748
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "93a1db9b368a182746a56b44cb97c5d48e6f6bea",
+  "prompts": {},
+  "sessions": {
+    "s_88bd73b2a72a3a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ce6d-ae03-7f91-a49a-5e2cda4d1b8a",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}

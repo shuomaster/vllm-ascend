@@ -1,0 +1,19 @@
+vllm_ascend/utils.py
+  s_b2477d3ac24d77::t_dda77d5ebc8f4a 2015-2017,2020-2024,2028
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "4da84b933f1520db265a745f505a291e689852ca",
+  "prompts": {},
+  "sessions": {
+    "s_b2477d3ac24d77": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1e3b7-6ee9-7140-91e4-53c636c0ed67",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
