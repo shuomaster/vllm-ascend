@@ -1,0 +1,30 @@
+vllm_ascend/worker/v2/spec_decode/multi_module_mtp/speculator.py
+  s_b2477d3ac24d77::t_3bdfd4d0d32ba1 224
+  s_b2477d3ac24d77::t_34b7a7196faf08 232-235
+  s_b2477d3ac24d77::t_92732e4e722b85 225,227-231,236-237
+  s_88bd73b2a72a3a::t_741fa7e0ec1e3b 238
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "7a7dffbcbef1f9913fe85dd249c1d45a8537d184",
+  "prompts": {},
+  "sessions": {
+    "s_88bd73b2a72a3a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ce6d-ae03-7f91-a49a-5e2cda4d1b8a",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    },
+    "s_b2477d3ac24d77": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1e3b7-6ee9-7140-91e4-53c636c0ed67",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+tests/ut/patch/worker/test_deepseek_pp_embedding.py
+  s_88bd73b2a72a3a::t_eded46102f9bf0 10,17,76,78-86,114,116
+  s_88bd73b2a72a3a::t_67815f06b7407b 77,115
+tests/ut/models/test_deepseek_v41_cache.py
+  s_88bd73b2a72a3a::t_eded46102f9bf0 1756
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "de1e871191f6a4029f2c4e035b3343edbf57534e",
+  "prompts": {},
+  "sessions": {
+    "s_88bd73b2a72a3a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ce6d-ae03-7f91-a49a-5e2cda4d1b8a",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
