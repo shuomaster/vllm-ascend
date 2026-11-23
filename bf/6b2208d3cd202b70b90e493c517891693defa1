@@ -1,0 +1,21 @@
+docs/source/user_guide/feature_guide/Ai_QoS_introduction_en.md
+  s_1761bdfb1417ab::t_31ca70cce96462 81,87-88
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/Ai_QoS_introduction_en.po
+  s_1761bdfb1417ab::t_31ca70cce96462 143,146,166-168
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "bf6b2208d3cd202b70b90e493c517891693defa1",
+  "prompts": {},
+  "sessions": {
+    "s_1761bdfb1417ab": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1f7d5-4903-7833-92fb-fd78c9fc146d",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
