@@ -1,0 +1,38 @@
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/features/pd_disaggregation_mooncake_multi_node.po
+  s_1761bdfb1417ab::t_fb6aedc1e76e9e 813,817
+docs/source/_templates/feature_template.md
+  s_1761bdfb1417ab::t_39ac1b71641408 95
+docs/source/tutorials/features/pd_disaggregation_mooncake_multi_node.md
+  s_1761bdfb1417ab::t_39ac1b71641408 294,302
+docs/source/tutorials/models/Kimi-K3.1-Pro.md
+  s_1761bdfb1417ab::t_39ac1b71641408 194
+docs/source/user_guide/feature_guide/kv_cache_pool_ascend_store.md
+  s_1761bdfb1417ab::t_39ac1b71641408 717
+docs/source/user_guide/feature_guide/lmcache_ascend_deployment.md
+  s_1761bdfb1417ab::t_39ac1b71641408 43-49
+docs/source/faqs.md
+  s_1761bdfb1417ab::t_17aac3c48be245 277
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/Kimi-K3.1-Pro.po
+  s_1761bdfb1417ab::t_fb6aedc1e76e9e 240-241,248
+docs/source/locale/zh_CN/LC_MESSAGES/faqs.po
+  s_1761bdfb1417ab::t_17aac3c48be245 203-204,208
+  s_1761bdfb1417ab::t_fb6aedc1e76e9e 200-202,205,207
+vllm_ascend/cpu_binding.py
+  s_1761bdfb1417ab::t_39ac1b71641408 700-701
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "85713fc246b152e6247835535b5f46c77285b029",
+  "prompts": {},
+  "sessions": {
+    "s_1761bdfb1417ab": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1f7d5-4903-7833-92fb-fd78c9fc146d",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
