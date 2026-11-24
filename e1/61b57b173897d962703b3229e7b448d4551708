@@ -1,0 +1,55 @@
+docs/source/tutorials/models/GLM5.3-Flash.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 110
+docs/source/tutorials/models/HY4-Flash.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 45-48
+docs/source/tutorials/models/Step-5-Preview.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 60
+docs/source/tutorials/models/GLM5.2.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 66
+docs/source/tutorials/models/DeepSeek-V4-Flash.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 53
+docs/source/tutorials/models/MiniMax-M3.1-Flash.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 52
+docs/source/tutorials/models/SigLIP2.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 42
+docs/source/tutorials/models/Kimi-K3.1-Pro.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 52-55
+docs/source/tutorials/models/DeepSeek-V4.1-Flash.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 100
+docs/source/tutorials/models/Kimi-K2.6.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 46
+docs/source/user_guide/feature_guide/kv_cache_pool_ascend_store.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 701-704
+docs/source/tutorials/models/Qwen-VL-Dense.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 41
+docs/source/tutorials/models/Qwen3-VL-30B-A3B-Instruct.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 35
+docs/source/tutorials/models/MiniMax-M3.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 49
+docs/source/user_guide/feature_guide/lmcache_ascend_deployment.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 29-32
+docs/source/tutorials/models/Qwen3.5-Dense.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 39
+docs/source/tutorials/models/Kimi-K3.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 52
+docs/source/tutorials/models/Qwen3.8-Flash-Next.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 42
+docs/source/tutorials/models/DeepSeek-V4-Pro.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "e161b57b173897d962703b3229e7b448d4551708",
+  "prompts": {},
+  "sessions": {
+    "s_1761bdfb1417ab": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1f7d5-4903-7833-92fb-fd78c9fc146d",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
