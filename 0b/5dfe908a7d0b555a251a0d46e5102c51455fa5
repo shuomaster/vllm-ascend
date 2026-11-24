@@ -1,0 +1,57 @@
+docs/source/tutorials/models/GLM5.3-Flash.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 109-112
+docs/source/tutorials/models/HY4-Flash.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 45-48
+docs/source/tutorials/models/Step-5-Preview.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 59-62
+docs/source/tutorials/models/GLM5.2.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 65-68
+docs/source/tutorials/models/DeepSeek-V4-Flash.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 52-55
+docs/source/tutorials/models/MiniMax-M3.1-Flash.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 51-54
+docs/source/tutorials/models/SigLIP2.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 41-44
+docs/source/tutorials/models/Kimi-K3.1-Pro.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 54-57
+docs/source/tutorials/models/DeepSeek-V4.1-Flash.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 99-102
+docs/source/tutorials/models/Kimi-K2.6.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 45-48
+docs/source/user_guide/feature_guide/kv_cache_pool_ascend_store.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 701-704
+docs/source/tutorials/models/Qwen-VL-Dense.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 40-43
+docs/source/tutorials/models/Qwen3-VL-30B-A3B-Instruct.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 34-37
+docs/source/tutorials/models/MiniMax-M3.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 48-51
+docs/source/user_guide/feature_guide/lmcache_ascend_deployment.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 29-32
+docs/source/tutorials/models/Qwen3.5-Dense.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 38-41
+docs/source/tutorials/models/Kimi-K3.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 51-54
+docs/source/tutorials/models/Qwen3.8-Flash-Next.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 41-44
+docs/source/tutorials/models/DeepSeek-V4-Pro.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 57-60
+docs/source/tutorials/features/pd_disaggregation_mooncake_multi_node.md
+  s_1761bdfb1417ab::t_a4277c88ff932f 206-209
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "0b5dfe908a7d0b555a251a0d46e5102c51455fa5",
+  "prompts": {},
+  "sessions": {
+    "s_1761bdfb1417ab": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1f7d5-4903-7833-92fb-fd78c9fc146d",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
