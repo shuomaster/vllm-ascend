@@ -1,0 +1,21 @@
+docs/source/getting_started/installation/cann_image/atlas-200i-pro.inc.md
+  s_1761bdfb1417ab::t_b037d62a89c0f7 25-28
+docs/source/getting_started/quick_start/ascend_image/atlas-200i-pro.inc.md
+  s_1761bdfb1417ab::t_b037d62a89c0f7 31-34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "1afc4fe38c10f9e0b839f9c26aa438430173a0aa",
+  "prompts": {},
+  "sessions": {
+    "s_1761bdfb1417ab": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1f7d5-4903-7833-92fb-fd78c9fc146d",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
