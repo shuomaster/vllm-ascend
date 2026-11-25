@@ -1,0 +1,23 @@
+recipes/overlays/Qwen/Qwen3.8-Flash-Next.yaml
+  s_1761bdfb1417ab::t_fa42f5a18be925 1111-1114
+recipes/overlays/MiniMaxAI/MiniMax-M3.1-Flash.yaml
+  s_1761bdfb1417ab::t_fa42f5a18be925 510,523,553
+docs/source/getting_started/installation/without_ascend_docker_runtime.inc.md
+  s_1761bdfb1417ab::t_fa42f5a18be925 105
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "49254916e30491b00b432ee8f5524061d56251c1",
+  "prompts": {},
+  "sessions": {
+    "s_1761bdfb1417ab": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1f7d5-4903-7833-92fb-fd78c9fc146d",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
