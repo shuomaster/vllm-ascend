@@ -1,0 +1,37 @@
+vllm_ascend/ops/helper/__init__.py
+  s_c707b497363156::t_c326274d5c537a 1
+vllm_ascend/patch/worker/patch_qwen3vl.py
+  s_c707b497363156::t_fcfc420ffa02e7 54-61
+  s_c707b497363156::t_c0d1c52b4144fb 11,53,62-73
+docs/source/user_guide/configuration/additional_config.md
+  s_c707b497363156::t_a7bc3e226ef934 135
+tests/ut/ops/test_qknorm_rope_helper.py
+  s_c707b497363156::t_d45d65ade131bd 1-68
+tests/ut/patch/worker/test_patch_qwen3vl_qknorm_rope.py
+  s_c707b497363156::t_2501ce722c368f 1-60
+vllm_ascend/ops/helper/qknorm_rope_fusion.py
+  s_c707b497363156::t_d58bcc516cba4d 5
+  s_c707b497363156::t_7998469066eb43 1-3,6-7,10-21,23-24,26,29-31,34-35,38-44,46,51,54-60,71-72
+  s_c707b497363156::t_1515d0d3fc3fb1 8,22,33
+  s_c707b497363156::t_9f47856edbed49 61-70
+  s_c707b497363156::t_c326274d5c537a 4,9,25,27-28,32,36-37,45,47-50,52-53
+vllm_ascend/patch/__init__.py
+  s_c707b497363156::t_13e36cf7f616e4 1111-1112
+  s_c707b497363156::t_68857aeecc1c1e 1105-1106,1108-1109
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "4cc6c08def29e8f92f13921e5a1be9a10465f300",
+  "prompts": {},
+  "sessions": {
+    "s_c707b497363156": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1e24e-5784-7730-9892-ef864964ffb5",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
