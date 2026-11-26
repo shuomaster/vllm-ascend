@@ -1,0 +1,19 @@
+release_notes/fragments/23326.yaml
+  s_c707b497363156::t_4c40bbcde3df0d 1-4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "d75647d997300b29da15b0de3eb61d2848077c46",
+  "prompts": {},
+  "sessions": {
+    "s_c707b497363156": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1e24e-5784-7730-9892-ef864964ffb5",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
