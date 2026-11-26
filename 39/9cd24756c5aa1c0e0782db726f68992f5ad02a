@@ -1,0 +1,25 @@
+vllm_ascend/ops/helper/qknorm_rope_fusion.py
+  s_c707b497363156::t_b56be48e79a9ca 64
+  s_c707b497363156::t_18453449b53c7d 60-63,65-70,79-80
+tests/ut/ops/test_qknorm_rope_helper.py
+  s_c707b497363156::t_18453449b53c7d 21-22,59-67,72-89
+  s_c707b497363156::t_af674d12ad9e76 51-52
+  s_c707b497363156::t_6be24468724467 68-71
+  s_c707b497363156::t_b56be48e79a9ca 90-102
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5+huawei.3",
+  "base_commit_sha": "399cd24756c5aa1c0e0782db726f68992f5ad02a",
+  "prompts": {},
+  "sessions": {
+    "s_c707b497363156": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1e24e-5784-7730-9892-ef864964ffb5",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "shuomaster <1967838808@qq.com>"
+    }
+  }
+}
